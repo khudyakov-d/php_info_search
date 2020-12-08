@@ -1,0 +1,47 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>z10-1</title>
+</head>
+<style type="text/css">
+
+</style>
+<body>
+
+<form action="z10-2.php" method="GET">
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center">Отобразить таблицы</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>структуру</td>
+            <td>содержимое</td>
+        </tr>
+
+        <tr>
+            <td>Продавцы (sal)</td>
+            <td style="text-align: center"><label><input type="checkbox" name="struct[]" value="sal"></label></td>
+            <td style="text-align: center"><label><input type="checkbox" name="content[]" value="sal"></label></td>
+        </tr>
+
+        <tr>
+            <td>Покупатели (cust)</td>
+            <td style="text-align: center"><label><input type="checkbox" name="struct[]" value="cust"></label></td>
+            <td style="text-align: center"><label><input type="checkbox" name="content[]" value="cust"></label></td>
+        </tr>
+
+        <tr>
+            <td>Заказы (ord)</td>
+            <td style="text-align: center"><label><input type="checkbox" name="struct[]" value="ord"></label></td>
+            <td style="text-align: center"><label><input type="checkbox" name="content[]" value="ord"></label></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center"><label><input type='submit' value=Вывести></label></td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
