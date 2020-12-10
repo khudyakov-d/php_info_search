@@ -10,7 +10,7 @@
 function print_array($num, $arr)
 {
     print "<div>" . $num . ") ";
-    for ($i = 1, $count = count($arr); $i <= $count; ++$i) {
+    for ($i = 0, $count = count($arr); $i < $count; ++$i) {
         print $arr[$i] . " ";
     }
     print "</div>\n";
