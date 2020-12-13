@@ -22,7 +22,7 @@ $query = "CREATE TABLE IF NOT EXISTS notebook (
 if (!$link) {
     die("Нет соединения с MySQL");
 } else {
-    if (!mysqli_query($conn, $query)) {
+    if (!mysqli_query($link, $query)) {
         die("Не удалось создать таблицу");
     }
 
